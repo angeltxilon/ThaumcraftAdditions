@@ -1,2 +1,2 @@
-0.015
-Fixes: Monolith now shouldn't spawn in the sky,/n rarity of monoliths is now multiplied by 10.
+0.016
+From now all messages will be in multiple lines long! :)
