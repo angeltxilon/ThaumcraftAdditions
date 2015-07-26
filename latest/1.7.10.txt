@@ -1,2 +1,2 @@
-0.014
-New: Mask of cruelty, thaumic restorer
+0.015
+Fixes: Monolith now shouldn't spawn in the sky,/n rarity of monoliths is now multiplied by 10.
