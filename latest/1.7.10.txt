@@ -1,2 +1,2 @@
-0.016
-From now all messages will be in multiple lines long! :)
+0.019
+Fixed some lag issues. Fixed crash with generating monolith in the world 'Overworld' (0).
