@@ -1,2 +1,2 @@
-0.20
-Added new seal (Teleportation), dislocation amulet - Activate it on teleportation seal, wear it, and SHIFT-click on it in Baubles inventory. Doesn't work between dimensions right now... Recipes for infusion books (a book in the top) and some magic. Bugfixes.. Yet again, more bugs are there..
+0.21
+Why I should write something in here???
