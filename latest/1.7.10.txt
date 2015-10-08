@@ -1,2 +1,2 @@
-0.22
-99.99% of fixing bug with breaking a block beneath a seal
+0.23
+infusion activator, adaminite staff, bugfixes, +more!
