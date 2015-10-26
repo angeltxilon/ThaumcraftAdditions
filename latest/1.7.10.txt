@@ -1,3 +1,4 @@
-0.30
-New crystallizer render.
-Seals can be placed on any side.
+latestver = 0.30
+downloadlink = minecraft.curseforge.com/projects/thaumic-additions/files/2262854
+urlbase = 0
+news[0] = Global update!
