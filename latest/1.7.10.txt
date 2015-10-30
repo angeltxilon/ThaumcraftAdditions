@@ -1,5 +1,9 @@
-latestver = 0.30
-latestverstage = beta
+latestver = 0.31
+latestverstage = release
 downloadlink = minecraft.curseforge.com/projects/thaumic-additions/files/2262854
 urlbase = 0
-news[0] = Global update!
+
+String[] news = new String[3];
+news[0] = Huge update!
+news[1] = New pipe system
+news[2] = Relics, an lots more...

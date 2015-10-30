@@ -6,8 +6,11 @@ tc.research_category.THAUMICADDITIONS=Thaumic Additions
 tc.aspect.saxum=Stone, Rock
 tc.aspect.granum=Seed
 
-##ITEMS
+##ATTACK
+death.attack.thaumicadditions:invalidowner=%s picked up wrong Relic
+death.attack.thaumicadditions:singularity=%s was splited to particles
 
+##ITEMS
 item.thaumicadditions:singularity.name=Arcane Singularity
 item.thaumicadditions:seal_symbol.name=Seal Symbol
 item.thaumicadditions:singcore.name=Black Hole Core
@@ -24,11 +27,25 @@ item.thaumicadditions:tainted_seed.name=Tainted Seeds
 item.thaumicadditions:arcane_stone.name=Arcane Transmutation Stone
 item.thaumicadditions:tainted_roots.name=Tainted Roots
 item.thaumicadditions:seal_item.name=Arcane Seal
+item.thaumicadditions:wand_hallelujah.name=§6Wand of Hallelujah
+item.thaumicadditions:old_upgrade.0.name=Quicksilver Core
+item.thaumicadditions:old_upgrade.1.name=Stabilized Singularity
+item.thaumicadditions:old_upgrade.2.name=Harnessed Rage
+item.thaumicadditions:old_upgrade.3.name=Concentrated Evil
+item.thaumicadditions:old_upgrade.4.name=Infinite Saddness
+item.thaumicadditions:old_upgrade.5.name=Contained Emptiness
+item.thaumicadditions:old_upgrade.6.name=Collected Wisdom
+item.thaumicadditions:enchanted_greatwood.name=Enchanted Greatwood
+item.thaumicadditions:enchanted_silverwood.name=Enchanted Silverwood
+item.thaumicadditions:arcane_dice.name=Arcane Dice
+item.thaumicadditions:transporter.arcane.name=Arcane Transporter
+item.thaumicadditions:foci_projectile.name=Wand focus: Projectile
+item.thaumicadditions:foci_xp.name=Wand focus: XP gain
 
 #Adaminite Stuff
-item.Wand.ADAMINITE.cap=Adaminite capped
-item.Wand.ADAMINITEWOOD.rod=adaminitewood
-item.Wand.ADAMINITEWOOD_staff.rod=adaminitewood
+item.Wand.ADAMINITE.cap=Adaminite Capped
+item.Wand.ADAMINITEWOOD.rod=Adaminitewood
+item.Wand.ADAMINITEWOOD_staff.rod=Adaminitewood
 item.thaumicadditions:adaminite_ingot.name=§cAdaminite Ingot
 item.thaumicadditions:adaminite_sword.name=Adaminite Sword
 item.thaumicadditions:cap_adaminite_inert.name=Inert Adaminite Cap
@@ -47,20 +64,11 @@ item.thaumicadditions:mithrillium_ingot.name=§3Mithrillium Ingot
 item.thaumicadditions:cap_mithrillium_inert.name=Inert Mithrillium Cap
 item.thaumicadditions:cap_mithrillium.name=Charged Mithrillium Cap
 
-#Signet
-item.thaumicadditions:bauble.signet.basic.name=Basic Signet
-item.thaumicadditions:bauble.signet.aer.name=Signet of Aer
-item.thaumicadditions:bauble.signet.ignis.name=Signet of Ignis
-item.thaumicadditions:bauble.signet.water.name=Signet of Water
-item.thaumicadditions:bauble.signet.earth.name=Signet of Earth
-item.thaumicadditions:bauble.signet.perditio.name=Signet of Perditio
-item.thaumicadditions:bauble.signet.ordo.name=Signet of Ordo
-
 ##TILE
 tile.thaumicadditions:tank_basic.name=[WIP] Vis tank
 tile.thaumicadditions:infuser.name=Thaumic Infuser
 tile.thaumicadditions:dark_infuser.name=Dark Infuser
-tile.thaumicadditions:arc_seal.name=Arcane Seal (New)
+tile.thaumicadditions:arc_seal.name=Arcane Seal (Deprecated in NEI)
 tile.thaumicadditions:symboller.name=Seal Symboller
 tile.thaumicadditions:dark_generator.name=Darkness Generator
 tile.thaumicadditions:thaumic_crystallizer.name=Thaumic Crystallizer
@@ -70,6 +78,13 @@ tile.thaumicadditions:void_chest.name=Void Chest
 tile.thaumicadditions:thaumic_restorer.name=Thaumic Restorer
 tile.thaumicadditions:tainted_crops.name=Tainted Crops
 tile.thaumicadditions:infuser_activator.name=Runic Matrix Activator
+tile.thaumicadditions:hyper_node_creator.name=[CREATIVE] Hyper node creator
+tile.thaumicadditions:tile_booster.name=Tile Entity Booster
+tile.thaumicadditions:stairs_eldritch.name=Eldritch Stone Stairs
+tile.thaumicadditions:old_crucible.name=Vis Crucible
+tile.thaumicadditions:vis_conduit.name=Vis Conduit
+tile.thaumicadditions:old_condensator.name=Vis Condenser
+tile.thaumicadditions:filter.name=Vis filter
 
 ##MISC
 ta:with_loot.name=With Loot
@@ -106,6 +121,49 @@ info.thaumicadditions:versioning.ok=Your version of 'Thaumic Additions' is most 
 container.on=on
 container.infuser=infuser
 container.infuserdark=dark infuser
+
+##FOCI UPGRADE##
+focus.upgrade.thaumicadditions:purity.name=Flux Disinfection
+focus.upgrade.thaumicadditions:purity.text=When projectile collides with entity, than it will have regeneration for 30 second, but if it lands on ground, it will spread some pure vis around the landing point, clearing taint in 8 block radius.
+
+focus.upgrade.thaumicadditions:infection.name=Flux Infection
+focus.upgrade.thaumicadditions:infection.text=When projectile collides with entity, than it will have flux poison for 30 second, but if it lands on ground, it will spread some taint around the landing point.
+
+focus.upgrade.thaumicadditions:explosive.name=Explosive
+focus.upgrade.thaumicadditions:explosive.text=When projectile collides with anything, it will create an explosion with regular TNT power. The more level is - the more explosion power you will get.
+################
+
+##ACHIEVEMENTS##
+achievement.thaumicadditions:wand.wood=Basic Magic
+achievement.thaumicadditions:wand.wood.desc=Craft a wooden wand with any cap.
+
+achievement.thaumicadditions:wand.greatwood=Improved Magic
+achievement.thaumicadditions:wand.greatwood.desc=Craft a greatwood wand with any cap.
+
+achievement.thaumicadditions:wand.silverwood=Hard Magic
+achievement.thaumicadditions:wand.silverwood.desc=Craft a silverwood wand with any cap.
+
+achievement.thaumicadditions:wand.void=Empty Magic
+achievement.thaumicadditions:wand.void.desc=Craft any wand with void cap.
+
+achievement.thaumicadditions:block.crucible=Thaumic Alchemy: Start
+achievement.thaumicadditions:block.crucible.desc=Use your wand on a cauldron from vanilla.
+
+achievement.thaumicadditions:item.nitor=Infinite light!
+achievement.thaumicadditions:item.nitor.desc=Make nitor in a crucible.
+
+achievement.thaumicadditions:item.alumentum=Magical dynamite
+achievement.thaumicadditions:item.alumentum.desc=Make alumentum in a crucible.
+
+achievement.thaumicadditions:item.thaumium=Magical iron
+achievement.thaumicadditions:item.thaumium.desc=Make thaumium ingot in a crucible.
+
+achievement.thaumicadditions:item.scribe=Researching apprentice
+achievement.thaumicadditions:item.scribe.desc=Craft any scribing tools.
+
+achievement.thaumicadditions:item.transporter=Transporting? No problem!
+achievement.thaumicadditions:item.transporter.desc=Make thaumic transporter.
+################
 
 #ADAMINITECRAFTING
 tc.research_name.ADAMINITECRAFTING=Adaminite Crafting
@@ -202,3 +260,38 @@ r_infusionmatrixactivator.text=While doing some crafts up on the runic matrix, a
 tc.research_name.ta:aspect_crafting=Aspect: %a
 tc.research_text.ta:aspect_crafting=Making %a!
 text.ta.research.aspects.crafting=This mod adds %a aspect. To make %a, use %1a and %2a
+
+#ENCHANTEDWOOD
+tc.research_name.ENCHANTEDWOOD=Enchanting wood!
+tc.research_text.ENCHANTEDWOOD=Upgrade your wood!
+r_enchantedwood.text=Now you can infuse that rare woods, that you've met before, with some primal magic.
+
+#VISTRANSPORTEVOLVED
+tc.research_name.VISTRANSPORTEVOLVED=Vis transport evolved!
+tc.research_text.VISTRANSPORTEVOLVED=Transport vis all around the place!
+r_visconduit.text=After some researching of enchanted greatwood you've though about the magic liquid, that was not transportable before...<LINE>But not now! You've tried to put enchanted greatwood with some glass, to see the flowing liquid, and you've finally got what you've wanted.
+
+#VISCONDENSATOR
+tc.research_name.VISCONDENSATOR=Making vis from air!
+tc.research_text.VISCONDENSATOR=Does this act bad on aura?
+r_viscondenser.text=After more researching of enchanted woods, you've leaded another theory of conducting vis from aura via enchanted wood, because it has very high magical conductivity. You've combined them in order, with some iron, and you have confirmed that this was worth it.<LINE>But don't be happy, it is not free-working. It requires any shard to be placed in it to work.
+
+#ARCANEDICE
+tc.research_name.ARCANEDICE=Arcane random.
+tc.research_text.ARCANEDICE=What shall I give to you?...
+r_dice_arcana.text=While researching primal functions of primordial pearl you've found that it not only has that weird mechanics, but it has a lot of random...<LINE>Connecting it with some void metal, and mithrillium you've made an arcane dice.<LINE>You found, that dice doesn't use the pearl, and you explain that as "The dice takes only random from the pearl, but the pearl has basically infinite amount of random."
+
+#WANDFOCUSPROJECTILE
+tc.research_name.WANDFOCUSPROJECTILE=Shooting with nothing!
+tc.research_text.WANDFOCUSPROJECTILE=Can it troll or help?
+r_foci_projectile.text=This focus can both help, and make situation worse, but in order to somehting it must be upgraded in a Foci Manipulator. A recipe is not that hard...
+
+#WANDFOCUSXP
+tc.research_name.WANDFOCUSXP=Let me have all the levels!
+tc.research_text.WANDFOCUSXP=But can i return vis back?
+r_foci_xp.text=This foci can be upgraded in a Foci Manipulator with infection. Without it, it will consume 10 vis of all types, and give you 1 level of experience. However if it is upgraded with infection it will drain 1 level, and give 10 vis of all types back into a wand.
+
+#ARCANETRANSPORTER
+tc.research_name.ARCANETRANSPORTER=Thaumic transporter
+tc.research_text.ARCANETRANSPORTER=Can this transport bedrock?
+r_transporter.text=You've had to do a lot of transporting, so you've discovered a very cool, and cheap way to transport any block where you want. This includes containers, like chests.<LINE>Guarantee: 100%.

@@ -1,12 +1,16 @@
 ﻿##TABS
+itemGroup.thaumicadditions=Thaumic Additions
 tc.research_category.THAUMICADDITIONS=Таумические дополнения
 
 ##ASPECTS
 tc.aspect.saxum=Камень, Скала
 tc.aspect.granum=Семя
 
-##ITEMS
+##ATTACK
+death.attack.ta:invalidowner=%s подобрал не подходящюю для него реликвию
+death.attack.thaumicadditions:singularity=%s был разщеплён на частицы
 
+##ITEMS
 item.thaumicadditions:singularity.name=Магическая Сингулярность
 item.thaumicadditions:seal_symbol.name=Символ печати
 item.thaumicadditions:singcore.name=Ядро черной дыри
@@ -23,15 +27,31 @@ item.thaumicadditions:tainted_seed.name=Заражённые семена
 item.thaumicadditions:arcane_stone.name=Магический камень превращения
 item.thaumicadditions:tainted_roots.name=Заражённые корни
 item.thaumicadditions:seal_item.name=Магическая печать
+item.thaumicadditions:wand_hallelujah.name=§6Жезл Аллилуйи
+item.thaumicadditions:old_upgrade.0.name=Ртутное ядро
+item.thaumicadditions:old_upgrade.1.name=Стабилизированная сингулярность
+item.thaumicadditions:old_upgrade.2.name=Запряжённая ярость
+item.thaumicadditions:old_upgrade.3.name=Концентрированное зло
+item.thaumicadditions:old_upgrade.4.name=Бесконечная грусть
+item.thaumicadditions:old_upgrade.5.name=Сдерживающая пустота
+item.thaumicadditions:old_upgrade.6.name=Собранная мудрость
+item.thaumicadditions:enchanted_greatwood.name=Зачарованное великое дерево
+item.thaumicadditions:enchanted_silverwood.name=Зачарованное серебрянное дерево
+item.thaumicadditions:arcane_dice.name=Магическая кость
+item.thaumicadditions:transporter.arcane.name=Магический транспортер
+item.thaumicadditions:foci_projectile.name=Набалдажник: Кидок
+item.thaumicadditions:foci_xp.name=Набалдажник: Опыт
 
 #Adaminite Stuff
 item.Wand.ADAMINITE.cap=Обитый адаминитом
 item.Wand.ADAMINITEWOOD.rod=адаминитодревесный
+item.Wand.ADAMINITEWOOD_staff.rod=адаминитодревесный
 item.thaumicadditions:adaminite_ingot.name=§cАдаминитовый слиток
 item.thaumicadditions:adaminite_sword.name=Адаминитовый меч
 item.thaumicadditions:cap_adaminite_inert.name=Инертный адаминитовый наконечник
 item.thaumicadditions:cap_adaminite.name=Заряженный адаминитовый наконечник
 item.thaumicadditions:wand_rod_adaminitewood.name=Адаминитоводревесный стержень
+item.thaumicadditions:wand_staff_adaminitewood.name=Адаминитоводревесный стержень посоха
 
 #Adaminite Armor
 item.thaumicadditions:adaminite_helmet.name=Адаминитовый шлем
@@ -44,20 +64,11 @@ item.thaumicadditions:mithrillium_ingot.name=§3Мифриллиумовый с�
 item.thaumicadditions:cap_mithrillium_inert.name=Инертный мифриллиумовый наконечник
 item.thaumicadditions:cap_mithrillium.name=Заряженный мифриллиумовый наконечник
 
-#Signet
-item.thaumicadditions:bauble.signet.basic.name=Стандартный перстень
-item.thaumicadditions:bauble.signet.aer.name=Перстень воздуха
-item.thaumicadditions:bauble.signet.ignis.name=Перстень огня
-item.thaumicadditions:bauble.signet.water.name=Перстень воды
-item.thaumicadditions:bauble.signet.earth.name=Перстень земли
-item.thaumicadditions:bauble.signet.perditio.name=Перстень хаоса
-item.thaumicadditions:bauble.signet.ordo.name=Перстень порядка
-
 ##TILE
-tile.thaumicadditions:tank_basic.name=[WIP] Вис цистерна
+tile.thaumicadditions:tank_basic.name=[БВР] Вис цистерна
 tile.thaumicadditions:infuser.name=Наполнитель
 tile.thaumicadditions:dark_infuser.name=Темный наполнитель
-tile.thaumicadditions:arc_seal.name=Магическая печать (Новая)
+tile.thaumicadditions:arc_seal.name=Магическая печать (Опущённая в NEI)
 tile.thaumicadditions:symboller.name=Печатный символлер
 tile.thaumicadditions:dark_generator.name=Генератор темноты
 tile.thaumicadditions:thaumic_crystallizer.name=Магический кристаллизатор
@@ -67,6 +78,13 @@ tile.thaumicadditions:void_chest.name=Пустотный сундук
 tile.thaumicadditions:thaumic_restorer.name=Магический ремонтник
 tile.thaumicadditions:tainted_crops.name=Заражённые всходы
 tile.thaumicadditions:infuser_activator.name=Активатор рунической матрицы
+tile.thaumicadditions:hyper_node_creator.name=[КРЕАТИВ] Генератор убер узлов ауры
+tile.thaumicadditions:tile_booster.name=Ускоритель тайлов
+tile.thaumicadditions:stairs_eldritch.name=Ступеньки из древнего камня
+tile.thaumicadditions:old_crucible.name=Вис тигель
+tile.thaumicadditions:vis_conduit.name=Вис труба
+tile.thaumicadditions:old_condensator.name=Конденсатор вис
+tile.thaumicadditions:filter.name=Вис фильтр
 
 ##MISC
 ta:with_loot.name=с лутом
@@ -103,6 +121,49 @@ info.thaumicadditions:versioning.ok=Ваша версия 'Thaumic Additions' с
 container.on=на
 container.infuser=наполнителе
 container.infuserdark=темном наполнителе
+
+##FOCI UPGRADE##
+focus.upgrade.thaumicadditions:purity.name=Очистка порчи
+focus.upgrade.thaumicadditions:purity.text=Когда снаряд врезаеться в сущность, то она получит регенерацию на 30 секунд, если-же в землю - то порча в радиусе 8 блоков очиститься, однако это происходит не всегда.
+
+focus.upgrade.thaumicadditions:infection.name=Заражение порчей
+focus.upgrade.thaumicadditions:infection.text=Когда снаряд врезаеться в сущность, то она получит отравление порчей на 30 секунд, если-же в землю - то в радиусе 4 блока появиться много порчи.
+
+focus.upgrade.thaumicadditions:explosive.name=Бомбило
+focus.upgrade.thaumicadditions:explosive.text=Когда снаряд врезаеться, то он взрываеться с силой обычного динамита. Чем больше раз данное улучшение использовано - тем мощнее взрыв.
+################
+
+##ACHIEVEMENTS##
+achievement.thaumicadditions:wand.wood=Базовая магия
+achievement.thaumicadditions:wand.wood.desc=Сделайте деревянный жезл с любыми наконечниками.
+
+achievement.thaumicadditions:wand.greatwood=Улучшенная магия
+achievement.thaumicadditions:wand.greatwood.desc=Сделайте великодревесный жезл с любыми наконечниками.
+
+achievement.thaumicadditions:wand.silverwood=Сложная магия
+achievement.thaumicadditions:wand.silverwood.desc=Сделайте серебродревесный жезл с любыми наконечниками.
+
+achievement.thaumicadditions:wand.void=Пустотная магия
+achievement.thaumicadditions:wand.void.desc=Сделайте любой жезл с пустотными наконечниками
+
+achievement.thaumicadditions:block.crucible=Таумическая алхимия: Начало
+achievement.thaumicadditions:block.crucible.desc=Используйте ваш жезл на котле.
+
+achievement.thaumicadditions:item.nitor=Вечный свет!
+achievement.thaumicadditions:item.nitor.desc=Сделайте нитор в тигле.
+
+achievement.thaumicadditions:item.alumentum=Магический динамит
+achievement.thaumicadditions:item.alumentum.desc=Сделайте алюментум в тигле.
+
+achievement.thaumicadditions:item.thaumium=Магическое железо
+achievement.thaumicadditions:item.thaumium.desc=Сделайте таум-слиток в тигле.
+
+achievement.thaumicadditions:item.scribe=Ученик изучений
+achievement.thaumicadditions:item.scribe.desc=Сделайте чернильницу с пером используя перо, бутылочку, и чернильный мешок.
+
+achievement.thaumicadditions:item.transporter=Намечаеться перемещение? Нет проблем!
+achievement.thaumicadditions:item.transporter.desc=Сделайте магический транспортер.
+################
 
 #ADAMINITECRAFTING
 tc.research_name.ADAMINITECRAFTING=Адаминитовый крафт
@@ -178,6 +239,7 @@ r_infuser.text=Все тауматурги знали другие механи�
 tc.research_name.INFUSERDARK=Темный наполнитель
 tc.research_text.INFUSERDARK=Темная магия не плохая!
 r_infuserdark.text.1=После обнаружения другой механики крафта вы подумали, что вы можете сделать что-то запретное, Темный наполнитель нужен, чтобы сделать некоторые запрещенные формы ресурсов.
+r_infuserdark.text.2=<BR><IMG>thaumicadditions:textures/thaumonomicon/iri_dark_infuser.png:0:0:255:255:.65</IMG>
 
 #TRANSMUTATIONSTONEARCANE
 tc.research_name.TRANSMUTATIONSTONEARCANE=Магические превращения
@@ -198,3 +260,38 @@ r_infusionmatrixactivator.text=Во время крафтов на руниче�
 tc.research_name.ta:aspect_crafting=Аспект: %a
 tc.research_text.ta:aspect_crafting=Создаем %a!
 text.ta.research.aspects.crafting=Данный мод также добавляет %a. Чтобы сделать %a нужно %1a, и %2a
+
+#ENCHANTEDWOOD
+tc.research_name.ENCHANTEDWOOD=Зачаровываем древесину!
+tc.research_text.ENCHANTEDWOOD=Улучшай её дальше!
+r_enchantedwood.text=Теперь вы можете наполнить те редкие деревья, которые встречали раньше, с первичной магией.
+
+#VISTRANSPORTEVOLVED
+tc.research_name.VISTRANSPORTEVOLVED=Транспортация вис: революция!
+tc.research_text.VISTRANSPORTEVOLVED=Транспортируйте вис везде!
+r_visconduit.text=После небольших изучений о зачарованной древесине великого дерева вы вспомнили ту жидкость, которую нельзя было транспортировать...<LINE>Но не теперь! Вы попробовали соединить зачарованное великое дерево с стеклянными панелями, чтобы видеть жидкость, и у вас наконец-то вышло то, что вы хотели.
+
+#VISCONDENSATOR
+tc.research_name.VISCONDENSATOR=Делаем вис из воздуха!
+tc.research_text.VISCONDENSATOR=Делает-ли оно плохо ауре?
+r_viscondenser.text=Немного изучений свойств зачарованных деревьёв, вы нашли способ получения вис из ауры через это дерево, потому, что оно хорошо служит магическим проводником. Вы соединили их в порядке, с небольшим количеством железа, и вы доказали, что это того стоило.<LINE>Однако это не все, это не "халява". Данное устройство требует осколок для работы.
+
+#ARCANEDICE
+tc.research_name.ARCANEDICE=Магическая случайность.
+tc.research_text.ARCANEDICE=Что мне стоит тебе дать?...
+r_dice_arcana.text=Изучая свойства первичного жемчуга вы узнали, что она имеет не только те странные механики, но и много случайности, так-же называемой как "рандом"...<LINE>Соединяя её с пустотным металлом, и мифриллиумом вы заполучили магическую "игральную" кость.<LINE>Вы узнали, что во время создания жемчуг остаеться, и вы это объясняете ка "Кость берет только рандом, однако жемчуг содержит бесконесно рандома."
+
+#WANDFOCUSPROJECTILE
+tc.research_name.WANDFOCUSPROJECTILE=Стреляем ничем!
+tc.research_text.WANDFOCUSPROJECTILE=Может-ли оно тролить, или помогать?
+r_foci_projectile.text=Этот фокус может помочь, и ухудшить ситуацию, однако перед тем, как он будет что-то делать он должен быть улучшен. Рецепт уж не такой и дорогой...
+
+#WANDFOCUSXP
+tc.research_name.WANDFOCUSXP=Дай мне весь опыт!
+tc.research_text.WANDFOCUSXP=Однако могу-ли я вернуть вис?
+r_foci_xp.text=Данный набалдажник может быть улучшен инфекцией. без него, он будет тратить 10 всех вис, и давать вам 1 уровень опыта. Однако если он улучшен инфекцией, то он будет потреблять 1 уровень, и заряжать жезл на 1 всех вис.
+
+#ARCANETRANSPORTER
+tc.research_name.ARCANETRANSPORTER=Таумический транспортер
+tc.research_text.ARCANETRANSPORTER=Может-ли оно перемещять бедрок?
+r_transporter.text=Вам нужно было совершить много переноса блоков (например сундуков), поэтому вы открыли дешёвый способ это совершить. Это включает контейнеры (например: сундук).<LINE> Гарантия: 100%.
