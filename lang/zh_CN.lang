@@ -1,0 +1,296 @@
+##TABS
+itemGroup.thaumicadditions=Thaumic Additions
+tc.research_category.THAUMICADDITIONS=Thaumic Additions
+
+##ASPECTS
+tc.aspect.saxum=石头, 岩石
+tc.aspect.granum=种子
+
+##ATTACK
+death.attack.thaumicadditions:invalidowner=%s 捡起了不属于他的遗物
+death.attack.thaumicadditions:singularity=%s 灰飞烟灭
+
+##ITEMS
+item.thaumicadditions:singularity.name=神秘奇点
+item.thaumicadditions:seal_symbol.name=符文符号
+item.thaumicadditions:singcore.name=黑洞核心
+item.thaumicadditions:depleted_shard.name=枯竭碎片
+item.thaumicadditions:seal_globe.name=封印之球
+item.thaumicadditions:soul_fragment.name=灵魂碎片
+item.thaumicadditions:infuser_book.name=符文注魔手册
+item.thaumicadditions:dark_infuser_book.name=黑暗注魔手册
+item.thaumicadditions:inert_keystone.name=邪术基石:惰性
+item.thaumicadditions:eldritch_keystone.tlhutlh.name=邪术基石: 充能
+item.thaumicadditions:mask_of_cruelty.name=残忍面具
+item.thaumicadditions:dislocation_amulet.name=混沌护身符
+item.thaumicadditions:tainted_seed.name=腐化种子
+item.thaumicadditions:arcane_stone.name=嬗变之石
+item.thaumicadditions:tainted_roots.name=腐化根系
+item.thaumicadditions:seal_item.name=符文纹章
+item.thaumicadditions:wand_hallelujah.name=§6上帝权杖
+item.thaumicadditions:old_upgrade.0.name=水银核心
+item.thaumicadditions:old_upgrade.1.name=稳定奇点
+item.thaumicadditions:old_upgrade.2.name=束缚怒火
+item.thaumicadditions:old_upgrade.3.name=浓缩邪恶
+item.thaumicadditions:old_upgrade.4.name=无限悲伤
+item.thaumicadditions:old_upgrade.5.name=禁锢空虚
+item.thaumicadditions:old_upgrade.6.name=汇集智慧
+item.thaumicadditions:enchanted_greatwood.name=蕴魔宏伟之木
+item.thaumicadditions:enchanted_silverwood.name=蕴魔银树原木
+item.thaumicadditions:arcane_dice.name=奥术骰子
+item.thaumicadditions:transporter.arcane.name=奥术转位仪
+item.thaumicadditions:foci_projectile.name=法杖核心:源动
+item.thaumicadditions:foci_xp.name=法杖核心:经验
+
+#Adaminite Stuff
+item.Wand.ADAMINITE.cap=元素杖端
+item.Wand.ADAMINITEWOOD.rod=元素杖柄
+item.Wand.ADAMINITEWOOD_staff.rod=元素杖芯
+item.thaumicadditions:adaminite_ingot.name=§c元素锭
+item.thaumicadditions:adaminite_sword.name=元素剑
+item.thaumicadditions:cap_adaminite_inert.name=惰性元素杖端
+item.thaumicadditions:cap_adaminite.name=充能元素杖端
+item.thaumicadditions:wand_rod_adaminitewood.name=元素杖柄
+item.thaumicadditions:wand_staff_adaminitewood.name=元素杖芯
+
+#Adaminite Armor
+item.thaumicadditions:adaminite_helmet.name=元素头盔
+item.thaumicadditions:adaminite_chestplate.name=元素胸甲
+item.thaumicadditions:adaminite_leggings.name=元素护腿
+item.thaumicadditions:adaminite_boots.name=元素靴子
+
+#Mithrillium Stuff
+item.thaumicadditions:mithrillium_ingot.name=§3秘银锭
+item.thaumicadditions:cap_mithrillium_inert.name=惰性秘银杖端
+item.thaumicadditions:cap_mithrillium.name=充能秘银杖端
+
+##TILE
+tile.thaumicadditions:tank_basic.name=[WIP]要素存储器
+tile.thaumicadditions:infuser.name=符文注魔台
+tile.thaumicadditions:dark_infuser.name=黑暗注魔台
+tile.thaumicadditions:arc_seal.name=符文纹章 (Deprecated in NEI)
+tile.thaumicadditions:symboller.name=符号注魔器
+tile.thaumicadditions:dark_generator.name=黑暗发生器
+tile.thaumicadditions:thaumic_crystallizer.name=神秘结晶器
+tile.thaumicadditions:thaumic_generator.name=神秘发生器
+tile.thaumicadditions:eldritch_stone.name=邪术石
+tile.thaumicadditions:void_chest.name=虚空箱子
+tile.thaumicadditions:thaumic_restorer.name=神秘修复机
+tile.thaumicadditions:tainted_crops.name=腐化作物
+tile.thaumicadditions:infuser_activator.name=自动注魔器
+tile.thaumicadditions:hyper_node_creator.name=[创造模式]高速节点制造机
+tile.thaumicadditions:tile_booster.name=实体发射器
+tile.thaumicadditions:stairs_eldritch.name=邪术石楼梯
+tile.thaumicadditions:old_crucible.name=要素坩埚
+tile.thaumicadditions:vis_conduit.name=要素管道
+tile.thaumicadditions:old_condensator.name=要素结晶器
+tile.thaumicadditions:filter.name=要素过滤器
+
+##MISC
+ta:with_loot.name=[贪婪]
+ta:unbreakable.name=(无法破坏)
+
+##SEAL COMBO DESCS
+seal.noeffect.globe=这个符文符号没有任何用途.
+seal.tillsoil.1.globe=在13x13的范围内,
+seal.tillsoil.2.globe=耕地都会保持湿润.
+seal.breaksoil.1.globe=破坏半径13范围内的泥土.
+seal.collect.globe=收集半径16格内的掉落物.
+seal.harveset.globe=收获成熟作物[仅限原版作物].
+seal.repair.globe=消耗Terra[CV]来修复工具.
+seal.fluxclean.globe=清除半径16格内的方块.
+seal.mechprot.globe=保护半径16格内不被怪物侵袭.
+seal.smelt.globe=使用Ignis[CV]来熔炼物品.
+seal.whisper.globe=向附近玩家耳语...
+seal.warp.1.globe=使半径5格内的玩家扭曲
+seal.warp.2.globe=在构造的时候
+seal.teleportation.1.globe=手持 '混沌护身符' 右击来绑定.
+seal.teleportation.2.globe=潜行时右击进行传送
+
+##TOOLTIP
+tooltip.ta:aura_mode=灵气攻击力
+tooltip.ta:craft_ingredient=合成原料
+tooltip.ta:knowseverything=我知道每个组合!
+infusionbook.ta:magic_needed.desc=需要魔力
+info.thaumicadditions:versioning.outdated=你的 Thaumic Additions 已经过时了 - %s! 最新版为 %s.
+info.thaumicadditions:versioning.whatsnew=Thaumic Additions 更新日志 %s:
+info.thaumicadditions:versioning.no_connection=检查 'Thaumic Additions' 更新失败: 无法连接到服务器.
+info.thaumicadditions:versioning.ok=你的 'Thaumic Additions' 是最新版.
+
+##CONTAINER
+container.on=关于
+container.infuser=符文注魔台
+container.infuserdark=黑暗注魔台
+
+##FOCI UPGRADE##
+focus.upgrade.thaumicadditions:purity.name=纯净
+focus.upgrade.thaumicadditions:purity.text=当能量团触碰到生物时, 将会给予该生物30秒再生效果. 如果能量团触碰到方块, 它将在着陆的地方喷射出一些Vis要素点, 并清除半径8格内的咒波.
+
+focus.upgrade.thaumicadditions:infection.name=污染
+focus.upgrade.thaumicadditions:infection.text=当能量团触碰到生物时, 将会给予该生物30秒中毒效果, 如果能量团触碰到方块, 它将以着陆点为中心咒波半径8格的区域. [对'经验'核心仅有吸取Vis转换为经验的功能]
+
+focus.upgrade.thaumicadditions:explosive.name=爆炸
+focus.upgrade.thaumicadditions:explosive.text=能量团触碰到任何物品, 它都会产生一个和TNT相当的爆炸. 等级越高爆炸效果越强.
+################
+
+##ACHIEVEMENTS##
+achievement.thaumicadditions:wand.wood=基础神秘学
+achievement.thaumicadditions:wand.wood.desc=用任意杖端做一根木法杖.
+
+achievement.thaumicadditions:wand.greatwood=进阶神秘使
+achievement.thaumicadditions:wand.greatwood.desc=用任意杖端做一根宏伟之木法杖.
+
+achievement.thaumicadditions:wand.silverwood=高级神秘使
+achievement.thaumicadditions:wand.silverwood.desc=用任意杖端做一根银树法杖.
+
+achievement.thaumicadditions:wand.void=虚空魔法
+achievement.thaumicadditions:wand.void.desc=用虚空杖端和任意杖柄做一根法杖.
+
+achievement.thaumicadditions:block.crucible=炼金术:开端
+achievement.thaumicadditions:block.crucible.desc=用你的法杖把炼药锅变成坩埚.
+
+achievement.thaumicadditions:item.nitor=永恒的花火!
+achievement.thaumicadditions:item.nitor.desc=在坩埚里制作一个闪耀之光.
+
+achievement.thaumicadditions:item.alumentum=神秘的能量团
+achievement.thaumicadditions:item.alumentum.desc=在坩埚里制作一个源动之焰.
+
+achievement.thaumicadditions:item.thaumium=魔导金属
+achievement.thaumicadditions:item.thaumium.desc=在坩埚里制作一个神秘锭.
+
+achievement.thaumicadditions:item.scribe=研究学徒
+achievement.thaumicadditions:item.scribe.desc=制作任意研究工具.
+
+achievement.thaumicadditions:item.transporter=转换位置? 没问题!
+achievement.thaumicadditions:item.transporter.desc=制作一个奥术转位仪.
+################
+
+#ADAMINITECRAFTING
+tc.research_name.ADAMINITECRAFTING=元素工艺
+tc.research_text.ADAMINITECRAFTING=你需要更为有用的东西吗?
+r_adaminitecrafting.text=在深入研究神秘锭这种魔导金属后, 你灵光一闪: 也许我可以制作更为优良的金属... <BR>通过将钻石和一些琥珀的魔力注入到神秘锭中, 你就可以得到一个充满魔力而又不稳定的元素锭. <BR> 别忘记在注魔时加入一些魔力布匹, 正是它们阻止了能量的外泄.
+
+#ADAMINITESWORD
+tc.research_name.ADAMINITESWORD=元素剑
+tc.research_text.ADAMINITESWORD=谁想带上这把剑呢?
+r_adaminitesword.text=在弄清楚你想要一把多么强大的武器后, 你低头看了看手上这把剑, 尽管它并不便宜, 但它所散发出的能量确实是令人震惊! <BR>用法: 潜行时右键 - 切换灵气攻击可造成的伤害, 可造成5, 15, 30 点伤害. <BR>请注意：你需要在潜行时对生物挥剑才能使用灵气攻击[可远距离攻击] 当你不是潜行的时候, 灵气会被你的气场所干扰而失效.
+
+#CAP_ADAMINITE
+tc.research_name.CAP_ADAMINITE=元素杖端
+tc.research_text.CAP_ADAMINITE=它真的比神秘杖端要好吗?
+r_adaminite_cap.text=经过潜心研究, 另一种更优良的材料被你找到了. <BR>你渐渐变得不理智了, 但你还是用那种红色金属为你的法杖做了新的杖端. <BR>在使用前别忘记给杖端充能! (充能方式在下一页)
+
+#ROD_ADAMINITEWOOD
+tc.research_name.ROD_ADAMINITEWOOD=元素杖柄
+tc.research_text.ROD_ADAMINITEWOOD=它能保存大量要素吗?
+r_adaminitewood_rod.text=你现在变得愈发不理智了, 但最后你还是用那种红色金属给你的法杖做了新的杖柄. <BR>这个杖柄可以存储 2000 Vis!
+
+#ROD_ADAMINITEWOOD_staff
+tc.research_name.ROD_ADAMINITEWOOD_staff=元素杖芯
+tc.research_text.ROD_ADAMINITEWOOD_staff=它真的比杖柄更好吗?
+r_adaminitewood_staff.text=通过深入研究材料的属性并结合你使用元素杖柄时的性能, 现在你能够制作元素杖芯了. <LINE>它能够存储 4.5K vis!
+
+#ADAMINITEARMOR
+tc.research_name.ADAMINITEARMOR=元素盔甲
+tc.research_text.ADAMINITEARMOR=我不知道自己在干些什么...
+r_adaminitearmor.text=经过一段时间的研究, 你发现通过将两个元素锭和一些钻石注入神秘盔甲中, 那么你就能得到一件特殊的装备 <LINE>注意: 你需要站在可以提供 CV 要素的地方[如:充能节点], 来激活装备所暗藏的魔力: 揭示之护目镜,饱食度恢复, 快速恢复生命值(无视饱食度)和快速熄火功能. 如果装备在玩家身上闪烁, 那么代表它已经获得足够多 CV 要素了.
+
+#SINGULARITY
+tc.research_name.SINGULARITY=奇点
+tc.research_text.SINGULARITY=很有趣但也很危险...
+r_singularity.text=经过对源动之焰深入研究, 你意识到你可以利用它的特性来满足自己的欲望. <BR>这头 "野兽"可以弄出一个巨大的矿坑, 利用这一点你可以用它来寻找一些珍稀矿物.
+
+#MITHRILLIUMCRAFTING
+tc.research_name.MITHRILLIUMCRAFTING=秘银制作
+tc.research_text.MITHRILLIUMCRAFTING=持久耐用!
+r_mithrillium_ingot.text=秘银十分耐用, 灵活地去运用这一金属, 你会发现它可以传导魔力! <LINE>把一些钻石和琥珀注入到神秘锭中, 你可以得到一种类似元素锭的金属, 但在耐用性不如元素锭. 别忘记在注魔时加入一些魔力布匹, 正是它们阻止了能量的外泄.
+
+#CAP_MITHRILLIUM
+tc.research_name.CAP_MITHRILLIUM=秘银杖端
+tc.research_text.CAP_MITHRILLIUM=是否有更方便的呢?...
+r_mithrillium_cap.text=经过对秘银的一番了解, 你忽然想到要是用这种金属要制作杖端会不会获得更好的性能呢？<BR>在使用前别忘记给杖端充能.(充能方式在下一页)
+
+#ARCANESEAL
+tc.research_name.ARCANESEAL=符文纹章
+tc.research_text.ARCANESEAL=容易移动...
+r_arcaneseal.text=每个神秘使都知道符文有特殊的功能. 但这一切都需要一个基础, 那就是写有符文的纹章, 而且你也不用担心它的耐久, 因为它可以重复使用. 你很快就会掌握符文纹章的用法了! <LINE>给符文纹章染色, 只需要用染料和它在合成台里合成就可以了, 如果多于一种颜色, 那么颜色将会混合在一起.
+
+#SEALSYMBOLING
+tc.research_name.SEALSYMBOLING=符文符号
+tc.research_text.SEALSYMBOLING=用来书写...
+r_sealsymboling.text=你越来越对神秘符文的书写感兴趣, 同时你发现书写符咒需要用到一些特殊的文字, 叫做符文符号. 如果你不知道该怎么做, 走进Thaumcraft的世界你会懂得它的用法.
+
+#SEALSYMBOLLER
+tc.research_name.SEALSYMBOLLER=符文注魔
+tc.research_text.SEALSYMBOLLER=多彩的生活!
+r_symboller.text=在学习了符文符号的用法之后, 你发现你无法使用这些符文. 但通过魔法的力量, 你制作了一台可以吸收其顶部要素罐子内的要素, 并给它内部的符文注魔的机器. <BR>现在你就能很好地利用这些符文来为你服务了!
+
+#SINGULARITYCORE
+tc.research_name.SINGULARITYCORE=黑洞核心
+tc.research_text.SINGULARITYCORE=甚至比黑基佬还黑!
+r_singcore.text=在研究秘银的性能时, 你忽然有了一个新的推测, 能不能用这种蕴含着强大魔力的金属来制作一个黑洞核心呢? 事实证明是可行的, 但黑洞对周围环境并没有任何毁坏, 那是因为它的能量实在太弱了! 你在思考:能不能通过某种方法来唤醒它强大的能量, 吸收附近一切物品并把它们化为烟尘呢?
+
+#INFUSER
+tc.research_name.INFUSER=符文注魔台
+tc.research_text.INFUSER=注入魔力.
+r_infuser.text=远古时期的神秘使都知道如何制作符文注魔台, 但这项技术已经失传很久了. 你在想:如果能制作出这样一个符文注魔台并使用它, 那就再好不过了.
+
+#INFUSERDARK
+tc.research_name.INFUSERDARK=黑暗注魔台
+tc.research_text.INFUSERDARK=黑暗魔法也并不全是坏的...
+r_infuserdark.text.1=在了解符文注魔台的用法后, 你觉得你可以制作一些禁忌的物品, 黑暗注魔台因此应运而生.
+r_infuserdark.text.2=<BR><IMG>thaumicadditions:textures/thaumonomicon/iri_dark_infuser.png:0:0:255:255:.65</IMG>
+
+#TRANSMUTATIONSTONEARCANE
+tc.research_name.TRANSMUTATIONSTONEARCANE=魔法嬗变
+tc.research_text.TRANSMUTATIONSTONEARCANE=这非常神奇!
+r_arctrst.text=经过一番深入研究, 你发现了更有趣的方法来得到奥术石块,奥术石砖,甚至符文矩阵! <BR>这个强大的物品储存着很多元始的能量, 让你更容易地进行奥术合成. <LINE>用此物品右键石头来制作奥术石块, 同样右键石砖来制作奥术石砖, 如果要制作符文矩阵, 那么你需要潜行对钻石块右键.
+#TAINTEDSEEDS
+tc.research_name.TAINTEDSEEDS=腐化作物
+tc.research_text.TAINTEDSEEDS=腐化,腐化, 腐化!!!
+r_tainedseeds.text=众所周知腐化是很不好的东西. <BR>但后来你认为你可以通过使用魔法, 来很好地操纵这些腐化植物, 不至于把你家搞的一团糟. <BR>你可以将小麦种子通过加入污染要素来转变成腐化种子, 然后你可以把它们种植在耕地,草地,和泥土上. <LINE>可惜的是你不知道它有什么作用..
+
+#INFUSION_ACTIVATOR
+tc.research_name.INFUSION_ACTIVATOR=自动注魔器
+tc.research_text.INFUSION_ACTIVATOR=是时候进入自动注魔的时代了!
+r_infusionmatrixactivator.text=在使用符文矩阵进行合成时, 你觉得每次都要右击符文矩阵实在是太累了. 但聪明的神秘使是不会一直这样做的. 于是你通过注入一点点元始魔力来让它拥有使用法杖的能力, 变成一个有趣的装置, 让它帮你启动符文矩阵. 它会将放置它的人作为它的主人. <LINE>不幸的是如果你没有相关的研究, 那么你需要解锁研究才能合成, 否则符文矩阵是不会启动的.
+
+#ASPECT_
+tc.research_name.ta:aspect_crafting=要素: %a
+tc.research_text.ta:aspect_crafting=制作 %a!
+text.ta.research.aspects.crafting=这个模组增加了 %a 要素. 合成 %a要素, 用 %1a 和 %2a合成
+
+#ENCHANTEDWOOD
+tc.research_name.ENCHANTEDWOOD=蕴魔原木!
+tc.research_text.ENCHANTEDWOOD=升级你的原木!
+r_enchantedwood.text=现在你可以给那些蕴藏着魔力的原木注魔了, 这些木头似乎可以用来制作运输某些物质的管道.
+
+#VISTRANSPORTEVOLVED
+tc.research_name.VISTRANSPORTEVOLVED=进阶要素运输工具!
+tc.research_text.VISTRANSPORTEVOLVED=到处输送你的要素吧!
+r_visconduit.text=蕴魔宏伟之木的奇特属性驱使着你去探寻它的用途, 你似乎发现这些带有神奇魔力的木头可以稳定住那些到处乱窜的要素, 在此之前并没有神秘使尝试运输这些要素... <LINE>终于! 在一次不经意的尝试中, 你把蕴魔宏伟之木和一些玻璃组合在一起, 看着那些流动着的要素, 你意识到你终于做出你想要的了!
+
+#VISCONDENSATOR
+tc.research_name.VISCONDENSATOR=从空气中吸取要素!
+tc.research_text.VISCONDENSATOR=这样做对灵气节点不好吧?
+r_viscondenser.text=你对蕴魔木材产生了浓厚的兴趣, 通过对它的研究,你大胆地认为可以通过这些蕴魔木材来吸收空气中的灵气, 因为这些蕴魔木材可以很高效率的传输要素. 于是你尝试将它们用铁锭有序的组合起来, 你确信这样就足以做出一台收集空气中灵气的机器了. <LINE>但别高兴的太早! 你需要放置一些碎片在里面来让它工作[如:地之碎片...].
+
+#ARCANEDICE
+tc.research_name.ARCANEDICE=奥术概率.
+tc.research_text.ARCANEDICE=我该给你什么呢?...
+r_dice_arcana.text=当你在研究元始珍珠的元始魔力时你发现, 它不仅具有奇特的力量, 同时它也具有随机的魔力... <LINE>用一些虚空锭和秘银锭把它连接起来, 你发现你做出了一个奥术骰子. <LINE>你发现, 制作骰子的时候并没有消耗掉珍珠, 你解释为 "骰子只是吸取了珍珠的随机的魔力, 但珍珠基本上是拥有无限多的随机魔力."
+
+#WANDFOCUSPROJECTILE
+tc.research_name.WANDFOCUSPROJECTILE=发射能量!
+tc.research_text.WANDFOCUSPROJECTILE=它能旋转吗?
+r_foci_projectile.text=这个核心可以帮助你或者把事情弄得更糟, 但是某个功能你需要核心镶饰台来启用. 这个合成没有你想象中那么难...
+
+#WANDFOCUSXP
+tc.research_name.WANDFOCUSXP=让我得到经验!
+tc.research_text.WANDFOCUSXP=但我能要回我的Vis吗?
+r_foci_xp.text=这个核心能在核心镶饰台增加 '污染' 升级. 若无此升级,它会消耗每种要素各 10 Vis,同时给予你1级的经验. 但是如果它有 '污染' 升级那么每次将扣除你一级经验, 并且给予你法杖每种要素各 10 Vis.
+
+#ARCANETRANSPORTER
+tc.research_name.ARCANETRANSPORTER=奥术转位仪
+tc.research_text.ARCANETRANSPORTER=它能移动基岩吗?
+r_transporter.text=你需要经常去移动一些碍眼的方块,于是你就制作出这一个非常酷,并且可以十分廉价的工具来移动你的方块.包括各种容器和带NBT数据的方块,比如箱子. <LINE>转位成功率: 100%.
