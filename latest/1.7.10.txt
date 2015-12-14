@@ -1,9 +1,6 @@
-latestver = 0.31
+latestver = 0.35
 latestverstage = release
 downloadlink = minecraft.curseforge.com/projects/thaumic-additions/files/2262854
 urlbase = 0
 
-String[] news = new String[3];
-news[0] = Huge update!
-news[1] = New pipe system
-news[2] = Relics, an lots more...
+news[0] = Added liquefied warp
