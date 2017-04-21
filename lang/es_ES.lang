@@ -1,0 +1,297 @@
+##TABS
+itemGroup.thaumicadditions=Thaumic Additions
+tc.research_category.THAUMICADDITIONS=Adiciones taumatúrgicas
+
+##ASPECTS
+tc.aspect.saxum=Piedra, Roca
+tc.aspect.granum=Semilla
+
+##ATTACK
+death.attack.thaumicadditions:invalidowner=%s recogió la reliquia equivocada
+death.attack.thaumicadditions:singularidad=%s fue dividido en partículas
+
+##ITEMS
+item.thaumicadditions:singularity.name=Singularidad arcana
+item.thaumicadditions:seal_symbol.name=Símbolo del sello
+item.thaumicadditions:singcore.name=Nucleo de agujero negro
+item.thaumicadditions:depleted_shard.name=Fragmento agotado
+item.thaumicadditions:seal_globe.name=Globo del sello
+item.thaumicadditions:soul_fragment.name=Fragmento de alma
+item.thaumicadditions:infuser_book.name=Guía de infusiones
+item.thaumicadditions:dark_infuser_book.name=Guía de infusiones oscuras
+item.thaumicadditions:inert_keystone.name=Runa Eldritch: Inerte
+item.thaumicadditions:eldritch_keystone.tlhutlh.name=Runa Eldritch: Tlhutlh
+item.thaumicadditions:mask_of_cruelty.name=Máscara de la crueldad
+item.thaumicadditions:dislocation_amulet.name=Dislocación del amuleto
+item.thaumicadditions:tainted_seed.name=Semillas contaminadas
+item.thaumicadditions:arcane_stone.name=Roca de transmutación arcana
+item.thaumicadditions:tainted_roots.name=Raices contaminadas
+item.thaumicadditions:seal_item.name=Sello arcano
+item.thaumicadditions:wand_hallelujah.name=§6Varita de Hallelujah
+item.thaumicadditions:old_upgrade.0.name=Nucleo de mercurio
+item.thaumicadditions:old_upgrade.1.name=Singularidad estabilizada
+item.thaumicadditions:old_upgrade.2.name=Rabia arraigada
+item.thaumicadditions:old_upgrade.3.name=Maldad concentrada
+item.thaumicadditions:old_upgrade.4.name=Tristeza infinita
+item.thaumicadditions:old_upgrade.5.name=Vacio contenido
+item.thaumicadditions:old_upgrade.6.name=Sabiduría coleccionada
+item.thaumicadditions:enchanted_greatwood.name=Madera magnífica encantada
+item.thaumicadditions:enchanted_silverwood.name=Madera plateada encantada
+item.thaumicadditions:arcane_dice.name=Dado arcano
+item.thaumicadditions:transporter.arcane.name=Transportador arcano
+item.thaumicadditions:foci_projectile.name=Wand focus: Proyectil
+item.thaumicadditions:foci_xp.name=Wand focus: Experiencia
+
+#Adaminite Stuff
+item.Wand.ADAMINITE.cap=con cubierta de adaminita
+item.Wand.ADAMINITEWOOD.rod=Madera adaminita
+item.Wand.ADAMINITEWOOD_staff.rod=Madera adaminita
+item.thaumicadditions:adaminite_ingot.name=§cLíngote de adaminita
+item.thaumicadditions:adaminite_sword.name=Espada de adaminita
+item.thaumicadditions:cap_adaminite_inert.name=Cubierta de adaminita inerte
+item.thaumicadditions:cap_adaminite.name=Cubierta de adaminita cargada
+item.thaumicadditions:wand_rod_adaminitewood.name=Varita de madera adaminita
+item.thaumicadditions:wand_staff_adaminitewood.name=Nucleo de bastón de madera adaminita
+
+#Adaminite Armor
+item.thaumicadditions:adaminite_helmet.name=Casco de adaminita
+item.thaumicadditions:adaminite_chestplate.name=Peto de adaminita
+item.thaumicadditions:adaminite_leggings.name=Grebas de adaminita
+item.thaumicadditions:adaminite_boots.name=Botas de adaminita
+
+#Mithrillium Stuff
+item.thaumicadditions:mithrillium_ingot.name=§3Língote de mitrilio
+item.thaumicadditions:cap_mithrillium_inert.name=Cubierta de mitrilio inerte
+item.thaumicadditions:cap_mithrillium.name=Cubierta de mitrilio cargada
+
+##TILE
+tile.thaumicadditions:tank_basic.name=[WIP] Tanque de vis
+tile.thaumicadditions:infuser.name=Infusor táumico
+tile.thaumicadditions:dark_infuser.name=Ifusor oscuro
+tile.thaumicadditions:arc_seal.name=Sello arcano (Deprecated in NEI)
+tile.thaumicadditions:symboller.name=Sello símbolico
+tile.thaumicadditions:dark_generator.name=Generador de oscuridad
+tile.thaumicadditions:thaumic_crystallizer.name=Cristalizador táumico
+tile.thaumicadditions:thaumic_generator.name=Generador táumico
+tile.thaumicadditions:eldritch_stone.name=Piedra Eldritch
+tile.thaumicadditions:void_chest.name=Cofre de vacío
+tile.thaumicadditions:thaumic_restorer.name=Resorte táumico
+tile.thaumicadditions:tainted_crops.name=Cultivos contaminados
+tile.thaumicadditions:infuser_activator.name=Activador de matriz rúnica
+tile.thaumicadditions:hyper_node_creator.name=[CREATIVE] Creador de hipernodo
+tile.thaumicadditions:tile_booster.name=Tile Creador de entes
+tile.thaumicadditions:stairs_eldritch.name=Escaleras de piedra Eldritch
+tile.thaumicadditions:old_crucible.name=Crisol de vis
+tile.thaumicadditions:vis_conduit.name=Conducto de vis
+tile.thaumicadditions:old_condensator.name=Condensador de vis
+tile.thaumicadditions:filter.name=Filtro de vis
+
+##MISC
+ta:with_loot.name=Con botín
+ta:unbreakable.name=(imrrompible)
+
+##SEAL COMBO DESCS
+seal.noeffect.globe=Esta combinación de sellos no tiene efectos
+seal.tillsoil.1.globe=Labra el suelo en un area de 13x13 bloques y
+seal.tillsoil.2.globe=el suelo estará húmedo.
+seal.breaksoil.1.globe=Destroye el suelo en un area de 13x13 bloques.
+seal.collect.globe=Recoge todos los items en un radio de 16 bloques.
+seal.harveset.globe=Cosecha todos los cultivos vanilla.
+seal.repair.globe=Repara items utilizando CV terra.
+seal.fluxclean.globe=Limpia el flux en un radio de 16 bloques
+seal.mechprot.globe=Protects 16 block radius from enemies.
+seal.smelt.globe=Funde items utilizando CV ignis.
+seal.whisper.globe=Susurra a todos los jugadores cercanos... secretos...
+seal.warp.1.globe=Da warp a todos los jugadores en un radio de 5 bloques
+seal.warp.2.globe=en la fábrica de tiempo.
+seal.teleportation.1.globe=Click con 'dislucación de amuleto' para enlazarlo.
+seal.teleportation.2.globe=mayus-click con amuleto para teletransporte
+
+##TOOLTIP
+tooltip.ta:aura_mode=Daño por aura
+tooltip.ta:craft_ingredient=Ingrediente de artesanía
+tooltip.ta:knowseverything=Yo conozco cualquier combinación!
+infusionbook.ta:magic_needed.desc=Magia requerida
+info.thaumicadditions:versioning.outdated=Your Thaumic Additions version is outdated - %s! Newest version is %s.
+info.thaumicadditions:versioning.whatsnew=What's new in Thaumic Additions %s:
+info.thaumicadditions:versioning.no_connection=Latest build checking of 'Thaumic Additions' failed: no internet connection.
+info.thaumicadditions:versioning.ok=Your version of 'Thaumic Additions' is most recent.
+
+##CONTAINER
+container.on=encendido
+container.infuser=infusor
+container.infuserdark=infusor oscuro
+
+##FOCI UPGRADE##
+focus.upgrade.thaumicadditions:purity.name=Desinfección de flux
+focus.upgrade.thaumicadditions:purity.text=Cuando un proyectil impacta con una entidad, esta obtendrá regeneración por 30 segundos, pero si impacta en tierra, dispersará energía vis, limpando la contaminación en un radio de 8 bloques.
+
+focus.upgrade.thaumicadditions:infection.name=Infección de flux
+focus.upgrade.thaumicadditions:infection.text=Cuando un proyectil impacta con una entidad, esta obtendrá fiebre cambiante por 30 segundos, pero si impacta en tierra, dispersará contaminación en un radio de 8 bloques.
+
+focus.upgrade.thaumicadditions:explosive.name=Explosivo
+focus.upgrade.thaumicadditions:explosive.text=Explotará al impactar con cualquier objetivo. A más nivel de poder, mayor será la explosión.
+################
+
+##ACHIEVEMENTS##
+achievement.thaumicadditions:wand.wood=Magia básica
+achievement.thaumicadditions:wand.wood.desc=Elabora una varita de madera común con cualquier cubierta.
+
+achievement.thaumicadditions:wand.greatwood=Magia mejorada
+achievement.thaumicadditions:wand.greatwood.desc=Elabora una varita de madera magnífica con cualquier cubierta.
+
+achievement.thaumicadditions:wand.silverwood=Magia avanzada.
+achievement.thaumicadditions:wand.silverwood.desc=Elabora una varita de madera plateada con cualquier cubierta.
+
+achievement.thaumicadditions:wand.void=Magia de la nada
+achievement.thaumicadditions:wand.void.desc= Elabora una varita con una cubierta de metal de vacío.
+
+achievement.thaumicadditions:block.crucible=Alquimia táumica: Inicio
+achievement.thaumicadditions:block.crucible.desc=Construye un caldero de alquímia.
+
+achievement.thaumicadditions:item.nitor=Luz infinita.
+achievement.thaumicadditions:item.nitor.desc=Crea nitor.
+
+achievement.thaumicadditions:item.alumentum=Dinamita mágica.
+achievement.thaumicadditions:item.alumentum.desc=Fabrica alumentum.
+
+achievement.thaumicadditions:item.thaumium=Hierro mágico.
+achievement.thaumicadditions:item.thaumium.desc=Fabrica un lingote de thaumium.
+
+achievement.thaumicadditions:item.scribe=Aprendiz de investigación.
+achievement.thaumicadditions:item.scribe.desc=Crea herramienetas de escritura.
+
+achievement.thaumicadditions:item.transporter=¿Transporte? sin problema.
+achievement.thaumicadditions:item.transporter.desc=Fabrica un transportador táumico.
+################
+
+#ADAMINITECRAFTING
+tc.research_name.ADAMINITECRAFTING=Fabricando adaminita
+tc.research_text.ADAMINITECRAFTING=¿Necesitas algo mejor?
+r_adaminitecrafting.text=Tras explorar las propiedades del thaumium, has descubierto que puedes crear algo mejor. Al infundir thaumium con diamante y un poco de ámbar, tú puedes obtener lingotes de adaminita. No olvides añadir algunos estabilizadores, es requerido para que el thaumium no decaiga.
+
+#ADAMINITESWORD
+tc.research_name.ADAMINITESWORD=Espada de adaminita
+tc.research_text.ADAMINITESWORD=¿Quien quiere llevar su espada?
+r_adaminitesword.text=Mientras que calcula cómo ese artículo maravilloso trabaja, usted pensó en hacer una cierta clase de espada. Una espada espeluznante. No es barata, pero es muy poderosa. Uso: Mayus-click - cambia el aura de daño para golpear a cualquiera: 5, 15, 30 HP. Tenga en cuenta que necesita agacharse para crear un aura temporal de daño. Cuando el jugador no está agachado, el aura será vaporizada.
+
+#CAP_ADAMINITE
+tc.research_name.CAP_ADAMINITE=Cubierta de adaminita
+tc.research_text.CAP_ADAMINITE=¿Es realmente mejor que una cubierta de thaumium?
+r_adaminite_cap.text=Another very helpful stuff has been found. You slowly became crazy, but in the end you can make some new caps for your wand from that red metal. Do not forget to charge them, before using. (Awakening is on the next page)
+
+#ROD_ADAMINITEWOOD
+tc.research_name.ROD_ADAMINITEWOOD=Adaminite Rod
+tc.research_text.ROD_ADAMINITEWOOD=Can it keep many aspects?
+r_adaminitewood_rod.text=Another very helpful stuff has been found. You slowly became even crazier, but in the end you can make some new magical core for your wand from that red ingot. This wand core can store a WHOLE 2000 of every aspect type!
+
+#ROD_ADAMINITEWOOD_staff
+tc.research_name.ROD_ADAMINITEWOOD_staff=Adaminite Staff
+tc.research_text.ROD_ADAMINITEWOOD_staff=Is it really better, than rod?
+r_adaminitewood_staff.text=After researching staffs and their nice properties you've came across with adaminite rod. In the result you can make adaminite staff. <LINE>It can hold whole 4.5K vis!
+
+#ADAMINITEARMOR
+tc.research_name.ADAMINITEARMOR=Adaminite Armoury
+tc.research_text.ADAMINITEARMOR=I can't even tell, what am I doing...
+r_adaminitearmor.text=Some researching later you found that infusing any part of thaumium armour combining 2 adaminite ingots and some diamond. In result give you something interesting stuff. Note: You have to be near the any CV source, for armour super-possibilities to be activated: Goggles of revealing, regenerate food, faster healing(food is not required), and fast extinguish. If armour on character is blinking, it has all CV it needs.
+
+#SINGULARITY
+tc.research_name.SINGULARITY=Singularity
+tc.research_text.SINGULARITY=The interesting thing, but dangerous...
+r_singularity.text=After studying the properties of Alumentum you realize, that you can use this feature for personal gain. This "Beast" can dig huge and beautiful mine, and can also be used as a search of rare ores.
+
+#MITHRILLIUMCRAFTING
+tc.research_name.MITHRILLIUMCRAFTING=Mithrillium Crafting
+tc.research_text.MITHRILLIUMCRAFTING=Durable and useful!
+r_mithrillium_ingot.text=Durable, but at the same time flexible to use mithrillium ingot. By Infusing thaumium metal with some diamond, a few ambers you can get metal such adaminite, but inferior to him in durability. Do not forget to add some enchanted fabrics while metal infuses, it's required so thaumium will not decay.
+
+#CAP_MITHRILLIUM
+tc.research_name.CAP_MITHRILLIUM=Mithrillium Cap
+tc.research_text.CAP_MITHRILLIUM=Whether there is something that is more convenient?
+r_mithrillium_cap.text=Studying mithrillium you had the idea to make cap from this magical metal. Do not forget to charge them, before using. (Awakening is on the next page)
+
+#ARCANESEAL
+tc.research_name.ARCANESEAL=Arcane Seal
+tc.research_text.ARCANESEAL=Easy to move...
+r_arcaneseal.text=Each thaumaturge knows spells have special functions. But all this needs a basis on which to rely, and without fear for the health of use it. Soon you will came up how to implement this, and as a result you get a Arcane Seal!<LINE>To paint this seal you just put the inks in the crafting table. If more than one color is applied to seal, they will merge.
+
+#SEALSYMBOLING
+tc.research_name.SEALSYMBOLING=Seal Symbol
+tc.research_text.SEALSYMBOLING=Created for spell...
+r_sealsymboling.text=After studying Arcane Seal you realize, that the spell can only write with the help of special characters, called Seal Symbols. As long as you do not come up with what to do, but going into Thaumcraft you will find the use of this thing.
+
+#SEALSYMBOLLER
+tc.research_name.SEALSYMBOLLER=Seal Symboller
+tc.research_text.SEALSYMBOLLER=Life with colors!
+r_symboller.text=After studying Seal Symbol you realized that they are useless. But now, with the help of magic you created device that can absorb essentia from the jar placed on the top, infusing Seal Symbol with the essentia. Now you can play with Seal Symbols and Arcane Seals.
+
+#SINGULARITYCORE
+tc.research_name.SINGULARITYCORE=Black Hole Core
+tc.research_text.SINGULARITYCORE=Even darker then enderman.
+r_singcore.text=Researching properties of mithrillium ingots you have leaded to a theory that one can make a core of a black hole. Yes, back hole core isn't dangerous for surrounding, but can you awake that mighty powers of sucking all in, and splitting it to the particles?
+
+#INFUSER
+tc.research_name.INFUSER=Infuser
+tc.research_text.INFUSER=Infusing with magic.
+r_infuser.text=All Thaumaturges did know other crafting mechanics in the past, but now all forget about them. You thought, if you can recreate one of those, and use it, the results are interesting.
+
+#INFUSERDARK
+tc.research_name.INFUSERDARK=Dark Infuser
+tc.research_text.INFUSERDARK=Dark magic is not bad!
+r_infuserdark.text.1=After discovering another crafting mechanic you thought that you can make something forbidden, Dark infuser is needed to make some forbidden forms of resources.
+r_infuserdark.text.2=<BR><IMG>thaumicadditions:textures/thaumonomicon/iri_dark_infuser.png:0:0:255:255:.65</IMG>
+
+#TRANSMUTATIONSTONEARCANE
+tc.research_name.TRANSMUTATIONSTONEARCANE=Magic Transmutation
+tc.research_text.TRANSMUTATIONSTONEARCANE=This to to magic one!
+r_arctrst.text=Some researching later you found very interesting way of getting Arcane Stone, Arcane Bricks, and even Runic Matrix! This powerful item stores all primal energy to do some magic easily. To make Arcane Stone click with this item on Stone, same for Arcane Bricks, click on Stone Bricks. To make Runic Matrix sneak-click the Diamond Block
+
+#TAINTEDSEEDS
+tc.research_name.TAINTEDSEEDS=Tainted Crops
+tc.research_text.TAINTEDSEEDS=taint, taint, TAINT!!!
+r_tainedseeds.text=All know that taint is kinda bad. But now, afterwards you think, that you are able to manipulate it, using some magic. You can event infuse wheat seeds with taint to ge tainted seeds, they can grow on soil, and grass, and dirt. Sadly you don't know what this can be used for..
+
+#INFUSION_ACTIVATOR
+tc.research_name.INFUSION_ACTIVATOR=Infusion matrix activation
+tc.research_text.INFUSION_ACTIVATOR=It's time to infuse automatically!
+r_infusionmatrixactivator.text=While doing some crafts up on the runic matrix, and now you are very tired of clicking on the matrix. But smart thaumaturge will not be clicking forever. So you've infused primal charm using it as a little memory, and developed an interesting device, that can activate matrix for you. When someone placed the block, it will remember the block owner.<LINE>Unfortunetly if you don't understand the research, that must be unlocked before crafting, matrix activator will not do anything.
+
+#ASPECT_
+tc.research_name.ta:aspect_crafting=Aspect: %a
+tc.research_text.ta:aspect_crafting=Making %a!
+text.ta.research.aspects.crafting=This mod adds %a aspect. To make %a, use %1a and %2a
+
+#ENCHANTEDWOOD
+tc.research_name.ENCHANTEDWOOD=Enchanting wood!
+tc.research_text.ENCHANTEDWOOD=Upgrade your wood!
+r_enchantedwood.text=Now you can infuse that rare woods, that you've met before, with some primal magic.
+
+#VISTRANSPORTEVOLVED
+tc.research_name.VISTRANSPORTEVOLVED=Vis transport evolved!
+tc.research_text.VISTRANSPORTEVOLVED=Transport vis all around the place!
+r_visconduit.text=After some researching of enchanted greatwood you've though about the magic liquid, that was not transportable before...<LINE>But not now! You've tried to put enchanted greatwood with some glass, to see the flowing liquid, and you've finally got what you've wanted.
+
+#VISCONDENSATOR
+tc.research_name.VISCONDENSATOR=Making vis from air!
+tc.research_text.VISCONDENSATOR=Does this act bad on aura?
+r_viscondenser.text=After more researching of enchanted woods, you've leaded another theory of conducting vis from aura via enchanted wood, because it has very high magical conductivity. You've combined them in order, with some iron, and you have confirmed that this was worth it.<LINE>But don't be happy, it is not free-working. It requires any shard to be placed in it to work.
+
+#ARCANEDICE
+tc.research_name.ARCANEDICE=Arcane random.
+tc.research_text.ARCANEDICE=What shall I give to you?...
+r_dice_arcana.text=While researching primal functions of primordial pearl you've found that it not only has that weird mechanics, but it has a lot of random...<LINE>Connecting it with some void metal, and mithrillium you've made an arcane dice.<LINE>You found, that dice doesn't use the pearl, and you explain that as "The dice takes only random from the pearl, but the pearl has basically infinite amount of random."
+
+#WANDFOCUSPROJECTILE
+tc.research_name.WANDFOCUSPROJECTILE=Shooting with nothing!
+tc.research_text.WANDFOCUSPROJECTILE=Can it troll or help?
+r_foci_projectile.text=This focus can both help, and make situation worse, but in order to somehting it must be upgraded in a Foci Manipulator. A recipe is not that hard...
+
+#WANDFOCUSXP
+tc.research_name.WANDFOCUSXP=Let me have all the levels!
+tc.research_text.WANDFOCUSXP=But can i return vis back?
+r_foci_xp.text=This foci can be upgraded in a Foci Manipulator with infection. Without it, it will consume 10 vis of all types, and give you 1 level of experience. However if it is upgraded with infection it will drain 1 level, and give 10 vis of all types back into a wand.
+
+#ARCANETRANSPORTER
+tc.research_name.ARCANETRANSPORTER=Thaumic transporter
+tc.research_text.ARCANETRANSPORTER=Can this transport bedrock?
+r_transporter.text=You've had to do a lot of transporting, so you've discovered a very cool, and cheap way to transport any block where you want. This includes containers, like chests.<LINE>Guarantee: 100%.
